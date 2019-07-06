@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_page",
+  "version": "1.0.0",
+  "description": "Main image overlay Change text on main image to white Change skills section Add bio Remove from on Contact page",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-Humphrey/Personal-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-Humphrey/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/Chris-Humphrey/Personal-Website#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

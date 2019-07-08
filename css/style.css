@@ -291,9 +291,10 @@ figure {
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align: top;
         min-height: 700px;
-        padding: 2.5em;
+        padding-left: 3em;
+        padding-top: 2em;
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
@@ -625,7 +626,6 @@ body.offcanvas {
 
 .services {
   margin-bottom: 30px;
-  padding: 1.5em;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -moz-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -634,9 +634,11 @@ body.offcanvas {
   border-bottom: 2px solid #2c98f0; }
   .services .icon2 {
     display: block;
+    text-align: center;
+    margin-top: 20px;
     margin-bottom: 20px; }
     .services .icon2 i {
-      font-size: 30px;
+      font-size: 50px;
       color: #2c98f0; }
   .services h3 {
     font-family: "Quicksand", Arial, sans-serif;
@@ -660,7 +662,7 @@ body.offcanvas {
     border-bottom: 2px solid #4054b2; }
 
 .services {
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
   position: relative;
   z-index: 0; }
   @media screen and (max-width: 768px) {

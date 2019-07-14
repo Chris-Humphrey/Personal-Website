@@ -871,6 +871,45 @@ body.offcanvas {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
         font-size: 28px; } }
 
+.pads{
+    padding-left: 2em;
+}
+
+.colorlib-tech {
+  text-align: left;
+  width: 20%;
+  float: left;
+  margin-bottom: 140px;
+  position: relative; }
+  .colorlib-tech .colorlib-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: table;
+    text-align: center;
+    background: #f2f3f7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px; }
+    .colorlib-tech .colorlib-icon i {
+      display: table-cell;
+      vertical-align: middle;
+      color: #2c98f0;
+      font-size: 60px;
+      height: 100px; }
+      @media screen and (max-width: 1200px) {
+        .colorlib-tech .colorlib-icon i {
+          font-size: 40px; } }
+  .colorlib-tech.colorlib-tech-sm .colorlib-icon i {
+    color: #2c98f0;
+    font-size: 40px; }
+    @media screen and (max-width: 1200px) {
+      .colorlib-tech.colorlib-tech-sm .colorlib-icon i {
+        font-size: 28px; } }
+
 .blog-entry {
   width: 100%;
   float: left;
